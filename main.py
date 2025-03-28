@@ -20,6 +20,8 @@ def generate_launch_description():
                                 )
     
 
+
+
     rviz_node = Node(name='rviz',
                     package='rviz2',
                     executable='rviz2'
